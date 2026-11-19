@@ -1,6 +1,6 @@
 import type { NavBarPath } from "@/types";
-import { House,Heart,MessageCircle,Compass } from "lucide-react";
-const NavBarPaths: NavBarPath[] = [{
+import { House,Heart,MessageCircle,Compass,Settings } from "lucide-react";
+export const NavBarPaths: NavBarPath[] = [{
   text: "Home",
   path: "/",
   icon: House
@@ -16,4 +16,9 @@ const NavBarPaths: NavBarPath[] = [{
   text: "Explore",
   path: "/explore",
   icon:Compass
+  },
+  {
+  text: "Settings",
+  path: "/settings",
+  icon:Settings
 }]
