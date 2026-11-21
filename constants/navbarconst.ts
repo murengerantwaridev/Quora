@@ -5,7 +5,7 @@ import {
   MessageCircle,
   Compass,
   Settings,
-  Popcorn,
+  UserRound,
 } from "lucide-react";
 export const NavBarPaths: NavBarPath[] = [
   {
@@ -29,9 +29,9 @@ export const NavBarPaths: NavBarPath[] = [
     icon: Compass,
   },
   {
-    text: "Movies",
-    path: "/movies",
-    icon: Popcorn,
+    text: "User",
+    path: "/user",
+    icon: UserRound,
   },
   {
     text: "Settings",
