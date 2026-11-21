@@ -8,7 +8,7 @@ export default function LeftNavbar() {
 
   return (
     <aside className="fixed left-4 top-0 h-screen flex items-center justify-center z-50 ">
-      <div className="flex flex-col gap-3 bg-neutral-950/55 px-2 py-2 rounded-full border border-white/15 backdrop-blur-2xl backdrop-saturate-150 shadow-[0_8px_12px_rgba(0,0,0,0.65)]">
+      <div className="flex flex-col gap-3 bg-neutral-950/55 px-2 py-2 rounded-full border border-white/15 backdrop-blur-2xl backdrop-saturate-150 shadow-[0_8px_12px_rgba(0,0,0,0.65)] ">
         {NavBarPaths.map((navPath) => {
           return (
             <Link

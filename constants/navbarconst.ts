@@ -1,24 +1,41 @@
 import type { NavBarPath } from "@/types";
-import { House,Heart,MessageCircle,Compass,Settings } from "lucide-react";
-export const NavBarPaths: NavBarPath[] = [{
-  text: "Home",
-  path: "/",
-  icon: House
-}, {
-  text: "Liked",
-  path: "/liked",
-  icon:Heart
-  }, {
-  text: "Chat",
-  path: "/chat",
-  icon:MessageCircle
-  }, {
-  text: "Explore",
-  path: "/explore",
-  icon:Compass
+import {
+  House,
+  Heart,
+  MessageCircle,
+  Compass,
+  Settings,
+  Popcorn,
+} from "lucide-react";
+export const NavBarPaths: NavBarPath[] = [
+  {
+    text: "Home",
+    path: "/",
+    icon: House,
   },
   {
-  text: "Settings",
-  path: "/settings",
-  icon:Settings
-}]
+    text: "Liked",
+    path: "/liked",
+    icon: Heart,
+  },
+  {
+    text: "Chat",
+    path: "/chat",
+    icon: MessageCircle,
+  },
+  {
+    text: "Explore",
+    path: "/explore",
+    icon: Compass,
+  },
+  {
+    text: "Movies",
+    path: "/movies",
+    icon: Popcorn,
+  },
+  {
+    text: "Settings",
+    path: "/settings",
+    icon: Settings,
+  },
+];
