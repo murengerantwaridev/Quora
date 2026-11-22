@@ -1,5 +1,6 @@
 import type { NavBarPath } from "@/types";
-import { Home, Popcorn, Save, Tv } from "lucide-react";
+import { Home, Save, Tv } from "lucide-react";
+
 export const TopBarPaths: NavBarPath[] = [
   {
     text: "Home",
@@ -7,7 +8,7 @@ export const TopBarPaths: NavBarPath[] = [
     icon: Home,
   },
   {
-    text: "shows",
+    text: "Shows",
     path: "/movies/categories",
     icon: Tv,
   },

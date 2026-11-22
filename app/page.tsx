@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import bg from "./bg.webp";
 import Image from "next/image";
 import React from "react";
