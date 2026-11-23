@@ -141,7 +141,7 @@ export default function Navbar() {
                       }`}
                     >
                       {isActive && <navPath.icon size={17} strokeWidth={2} />}
-                      <span>{navPath.text}</span>
+                      <span >{navPath.text}</span>
                     </Link>
                   );
                 })}
@@ -156,8 +156,6 @@ export default function Navbar() {
                 >
                   <Search size={18} strokeWidth={1.75} />
                 </button>
-
-              
               </>
             ) : (
               <form

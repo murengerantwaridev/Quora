@@ -23,7 +23,7 @@ export default function LeftNavbar() {
               aria-label={navPath.text}
               className={`group relative flex items-center justify-center rounded-full p-2.5 transition-all duration-200 cursor-pointer hover:scale-105 ${
                 isActive
-                  ? "border border-white/15 bg-white/15 text-white shadow-sm"
+                  ? "border border-white/15 bg-white text-black sha-dow-sm"
                   : "border border-transparent text-white/75 hover:bg-white/15 hover:text-white"
               }`}
             >
